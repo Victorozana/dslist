@@ -1,7 +1,6 @@
 package com.victor.dslist.dto;
 
 import com.victor.dslist.entity.Game;
-import jakarta.persistence.Column;
 import org.springframework.beans.BeanUtils;
 
 public class GameDTO {
