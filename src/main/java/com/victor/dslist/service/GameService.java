@@ -20,7 +20,7 @@ public class GameService {
     @Transactional(readOnly = true)
     public GameDTO findiByID(Long id){
         Game result = gameRepository.findById(id).get();
-        return new GameDTO(result);
+           return new GameDTO(result);
     }
 
     @Transactional(readOnly = true)
@@ -31,7 +31,7 @@ public class GameService {
 
     @Transactional(readOnly = true)
     public List<GameMinDTO> findByLists(Long listId){
-        List<GameMinProjection> result = gameRepository.searchByList(listId);
+            List<GameMinProjection> result = gameRepository.searchByList(listId);
         return result.stream().map(x -> new GameMinDTO(x)).toList();
     }
 }
