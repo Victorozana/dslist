@@ -49,7 +49,7 @@ Aqui você pode ver alguns exemplos de rotas da API.
 ​
 | route               | description                                          
 |----------------------|-----------------------------------------------------
-| <kbd>GET /http://localhost:8080/games</kbd>     | Retorna todos os jogos criados
+| <kbd>GET /localhost:8080/games</kbd>     | Retorna todos os jogos criados
 | <kbd>GET /localhost:8080/lists/2/games</kbd>     | Retorna uma lista pelo ID
 | <kbd>GET /localhost:8080/lists</kbd>     | Retorna todos as categorias de jogos criados
 | <kbd>GET /localhost:8080/games/1</kbd>     | Retorna o jogo pelo Id 
